@@ -94,3 +94,24 @@ a:hover{
     color:#666;
     font-size:0.85em;
 }
+/* ===== プロフィールヘッダー ===== */
+.profile-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/* テキスト側 */
+.profile-text{
+    flex:1;
+}
+
+/* プロフィール画像 */
+.profile-img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    margin-left:20px;
+}
